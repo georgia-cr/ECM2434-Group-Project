@@ -1,0 +1,47 @@
+--FOR STUDENTS
+
+--getting login details for student user (username, password) from studentDetails
+SELECT username, password FROM studentDetails WHERE username = ; --INSERT USERNAME
+
+--getting profile details (username, firstName, lastName, bio, DOB, studentNo, moduleCode, quizAverage, wellBeingScore) from studentDetails
+SELECT username, firstName, lastName, bio, DOB, studentNo, moduleCode, quizAverage, wellBeingScore FROM studentDetails WHERE username = ; --INSERT USERNAME
+
+--getting friend string (friendList) from studentDetails
+SELECT friendList FROM studentDetails WHERE username = ; --INSERT USERNAME
+
+--getting details to share with student support network (quizAverage, wellBeingScore) from studentDetails
+SELECT quizAverage, wellBeingScore FROM studentDetails WHERE supportCode = ; --INSERT SUPPORT CODE
+
+--add new user to student details
+INSERT INTO studentDetails (username, password, firstName, lastName, DOB, bio, studentNo, moduleCode, quizAverage, wellBeingScore, supportCode, friendList) VALUES (); --INSERT VALUES
+
+
+
+
+--FOR ADMIN
+
+--getting login details for admin user (username, password) from adminDetails
+SELECT username, password FROM adminDetails WHERE username = ; --INSERT USERNAME
+
+----getting profile details (username, firstName, lastName, bio, DOB, adminNo, moduleCode) from adminDetails
+SELECT username, firstName, lastName, bio, DOB, adminNo, moduleCode FROM adminDetails WHERE username = ; --INSERT USERNAME
+
+--add new user to admin details
+INSERT INTO studentDetails (username, password, firstName, lastName, DOB, bio, adminNo, moduleCode) VALUES (); --INSERT VALUES
+
+
+
+
+--FOR QUIZ
+
+--getting quiz for taking (quizTitle, quizContent, quizRanking) from quizDetails
+SELECT quizTitle, quizContent, quizRanking FROM quizDetails WHERE quizNo = ; --INSERT QUIZ NO
+
+--getting quiz for leaderboard (quizTitle, quizRanking) from quizDetails
+SELECT quizTitle, quizRanking FROM quizDetails WHERE quizNo = ; --INSERT QUIZ NO
+
+--add new quiz
+INSERT INTO quizDetails (quizTitle, quizContent, quizRanking) VALUES (); --INSERT VALUES
+
+--delete quiz
+DELETE FROM quizDetails WHERE quizID = ; --INSERT QUIZ ID
