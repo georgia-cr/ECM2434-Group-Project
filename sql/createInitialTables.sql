@@ -1,3 +1,6 @@
+-- authors: Georgia Crouch
+-- dates edited: 10/02/2021
+
 drop table if exists studentDetails;
 
 create table studentDetails(
