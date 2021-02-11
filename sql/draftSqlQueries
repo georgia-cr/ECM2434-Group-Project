@@ -1,10 +1,13 @@
+--authors: Georgia Crouch
+--dates edited: 11/02/2021
+
 --FOR STUDENTS
 
 --getting login details for student user (username, password) from studentDetails
 SELECT username, password FROM studentDetails WHERE username = ; --INSERT USERNAME
 
---getting profile details (username, firstName, lastName, bio, DOB, studentNo, moduleCode, quizAverage, wellBeingScore) from studentDetails
-SELECT username, firstName, lastName, bio, DOB, studentNo, moduleCode, quizAverage, wellBeingScore FROM studentDetails WHERE username = ; --INSERT USERNAME
+--getting profile details (username, firstName, lastName, bio, DOB, studentNo, courseCode, quizAverage, wellBeingScore) from studentDetails
+SELECT username, firstName, lastName, bio, DOB, studentNo, courseCode, quizAverage, wellBeingScore FROM studentDetails WHERE username = ; --INSERT USERNAME
 
 --getting friend string (friendList) from studentDetails
 SELECT friendList FROM studentDetails WHERE username = ; --INSERT USERNAME
@@ -13,7 +16,7 @@ SELECT friendList FROM studentDetails WHERE username = ; --INSERT USERNAME
 SELECT quizAverage, wellBeingScore FROM studentDetails WHERE supportCode = ; --INSERT SUPPORT CODE
 
 --add new user to student details
-INSERT INTO studentDetails (username, password, firstName, lastName, DOB, bio, studentNo, moduleCode, quizAverage, wellBeingScore, supportCode, friendList) VALUES (); --INSERT VALUES
+INSERT INTO studentDetails (username, password, firstName, lastName, DOB, bio, studentNo, courseCode, quizAverage, wellBeingScore, supportCode, friendList) VALUES (); --INSERT VALUES
 
 
 
@@ -34,14 +37,14 @@ INSERT INTO studentDetails (username, password, firstName, lastName, DOB, bio, a
 
 --FOR QUIZ
 
---getting quiz for taking (quizTitle, quizContent, quizRanking) from quizDetails
-SELECT quizTitle, quizContent, quizRanking FROM quizDetails WHERE quizNo = ; --INSERT QUIZ NO
+--getting quiz for taking (quizTitle, quizContent, quizRanking, category) from quizDetails
+SELECT quizTitle, quizContent, quizRanking, category FROM quizDetails WHERE quizNo = ; --INSERT QUIZ NO
 
---getting quiz for leaderboard (quizTitle, quizRanking) from quizDetails
-SELECT quizTitle, quizRanking FROM quizDetails WHERE quizNo = ; --INSERT QUIZ NO
+--getting quiz for leaderboard (quizTitle, quizRanking, category) from quizDetails
+SELECT quizTitle, quizRanking, category FROM quizDetails WHERE quizNo = ; --INSERT QUIZ NO
 
 --add new quiz
-INSERT INTO quizDetails (quizTitle, quizContent, quizRanking) VALUES (); --INSERT VALUES
+INSERT INTO quizDetails (quizTitle, quizContent, quizRanking, category) VALUES (); --INSERT VALUES
 
 --delete quiz
 DELETE FROM quizDetails WHERE quizID = ; --INSERT QUIZ ID
