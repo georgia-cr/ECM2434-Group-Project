@@ -1,3 +1,6 @@
+--authors: Georgia Crouch
+--dates edited: 11/02/2021
+
 drop table if exists studentDetails;
 
 create table studentDetails(
@@ -8,7 +11,7 @@ create table studentDetails(
     DOB DATE,
     bio VARCHAR(300),
     studentNo VARCHAR(10) NOT NULL,
-    moduleCode VARCHAR(10),
+    courseCode VARCHAR(10),
     quizAverage FLOAT,
     wellBeingScore FLOAT,
     supportCode INTEGER,
@@ -25,7 +28,7 @@ create table adminDetails(
     DOB DATE,
     bio VARCHAR(300),
     adminNo VARCHAR(10),
-    moduleCode VARCHAR(10)
+    courseCode VARCHAR(10)
 );
 
 drop table if exists quizDetails;
