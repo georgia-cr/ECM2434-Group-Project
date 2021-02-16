@@ -1,11 +1,11 @@
 /*
-authors: Henry Cook,
+authors: Henry Cook, Elias Kroha
 dates edited: 
-11/02/2021
+11/02/2021, 16/02/2021
 */
 
 body {
-  background-color: green;
+  background-color: lawngreen;
 }
 
 h1 {
@@ -17,3 +17,35 @@ p {
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
 }
+
+a:link {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: white;
+  border: solid grey;
+  color: grey;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+
