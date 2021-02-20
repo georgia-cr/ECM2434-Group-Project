@@ -1,19 +1,53 @@
 <!-- 
-authors: Henry Cook,
+authors: Henry Cook, George Daish
 dates edited: 
-11/02/2021
+11/02/2021, 20/02/2021
 -->
-
 <!DOCTYPE html>
 <html>
+
+
 <head>
     <link rel="stylesheet" href="main.css">
-<title>Quizzes</title>
+<title>Create a Quiz</title>
 </head>
-<body>
 
-<h1>Quiz</h1>
-<p>This is a Quiz.</p>
+<h1><u>Create Your Next Quiz!</u></h1>
+
+<body>
+<form action="<! enter page>">
+  <label for="qName">Quiz Name:</label>
+  <input type="text" id="qName" name="qName" placeholder="Enter the quiz name..."><br><br>
+  
+  <label for="qName"><h3>Question 1</h3></label>
+  
+  <label for="qQuestion">Question:</label><br>
+  <input type="text" id="qQuestion" name="question" placeholder="Enter the question...">
+  
+  <br><br><br>
+  
+  <label for="o1">Option 1:</label><br>
+  <input type="text" id="o1" name="o1" placeholder="Enter Option 1...">
+  <input type="checkbox" id="q1" name="correct" value="q1Correct">
+  <label for="correct"> Correct answer?</label><br><br>
+  
+  <label for="o2">Option 2:</label><br>
+  <input type="text" id="o2" name="o2" placeholder="Enter Option 2...">
+  <input type="checkbox" id="q1" name="correct" value="q2Correct">
+  <label for="correct"> Correct answer?</label><br><br>
+  
+  <label for="o3">Option 3:</label><br>
+  <input type="text" id="o3" name="o3" placeholder="Enter Option 3...">
+  <input type="checkbox" id="q1" name="correct" value="q3Correct">
+  <label for="correct"> Correct answer?</label><br><br>
+  
+  <label for="o4">Option 4:</label><br>
+  <input type="text" id="o4" name="o4" placeholder="Enter Option 4...">
+  <input type="checkbox" id="q1" name="correct" value="q4Correct">
+  <label for="correct"> Correct answer?</label><br><br>
+  
+  <input type="submit" value="Submit">
+</form> 
 
 </body>
 </html>
