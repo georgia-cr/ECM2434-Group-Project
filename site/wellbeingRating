@@ -1,0 +1,21 @@
+<!--
+authors: Georgia Crouch,
+dates edited:
+18/02/2021
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Well-being Rating</title>
+</head>
+<body>
+<form action="submit wellbeing score">
+    <label for="wellbeingSlider">Please Rate Your Well-being from 1 (very bad) to 100 (very good)</label>
+    <input type="range" min="1" max="100" value="50" id="wellbeingSlider" name="wellbeingSlider">
+    <input type="submit" name="Submit">
+</form>
+
+</body>
+</html>
