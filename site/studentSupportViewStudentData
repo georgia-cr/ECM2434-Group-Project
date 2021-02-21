@@ -1,0 +1,26 @@
+<!--
+authors: Georgia Crouch,
+dates edited:
+18/02/2021
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>View Student Data</title>
+</head>
+<body>
+
+<form onsubmit="view student data">
+
+    <?php
+        echo "HTMLwellbeing score"."wellbeing score";
+        echo "HTMLwellbeing score"."wellbeing score";
+    ?>
+
+    <input type="submit" name="Return to Input Code Page">
+</form>
+
+</body>
+</html>
