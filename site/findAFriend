@@ -1,0 +1,24 @@
+<!--
+authors: Georgia Crouch,
+dates edited:
+18/02/2021
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Find a Friend</title>
+</head>
+<body>
+
+<form onsubmit="changeInnerHTMLTextOfRandomUsername()">
+
+    <label>Click the button to find a friend!</label>
+    <input type="submit" name="Find a Friend">
+    <label id="randomUsername"></label>
+
+</form>
+
+</body>
+</html>
