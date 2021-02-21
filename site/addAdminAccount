@@ -1,0 +1,40 @@
+<!--
+authors: Georgia Crouch,
+dates edited:
+18/02/2021
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Add Admin Account</title>
+</head>
+<body>
+
+<h1>Add a New Admin Account</h1>
+
+<form onsubmit="addLogin">
+
+    <label for="username">Enter New Admin Username: </label>
+    <input type="text" id="username">
+    <label for="username">Enter New Admin Password: </label>
+    <input type="text" id="password">
+    <label for="fName">Enter New Admin First Name: </label>
+    <input type="text" id="fName">
+    <label for="lName">Enter New Admin Last Name: </label>
+    <input type="text" id="lName">
+    <label for="DOB">Enter New Admin DOB: </label>
+    <input type="text" id="DOB">
+    <label for="bio">Enter New Admin Bio: </label>
+    <input type="text" id="bio">
+    <label for="adminNo">Enter New Admin No: </label>
+    <input type="text" id="adminNo">
+    <label for="moduleCode">Enter New Admin Module Code: </label>
+    <input type="text" id="moduleCode">
+    <input type="submit" name="Submit">
+
+</form>
+
+</body>
+</html>
