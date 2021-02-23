@@ -1,0 +1,24 @@
+<!--
+authors: Georgia Crouch,
+dates edited:
+18/02/2021
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Student Support Input Code</title>
+</head>
+<body>
+
+<form onsubmit="submit input code">
+
+    <label for="txtInputCode">Please enter the student's support code to view their well-being and quiz scores</label>
+    <input type="text" id="txtInputCode">
+    <input type="submit" name="Submit">
+
+</form>
+
+</body>
+</html>
