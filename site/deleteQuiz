@@ -1,0 +1,22 @@
+<!--
+authors: Georgia Crouch,
+dates edited:
+18/02/2021
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>Delete Quiz by ID</title>
+</head>
+<body>
+<form onsubmit="submit deletion id">
+
+    <label for="deletionID" id="lblQuizDelete">Please enter the quiz ID of the quiz to delete</label>
+    <input type="text" id="deletionID">
+    <input type="submit" name="Submit">
+</form>
+
+</body>
+</html>
