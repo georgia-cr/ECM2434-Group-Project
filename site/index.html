@@ -35,9 +35,15 @@ dates edited:
                 <div class="container-title">
                     <h1>Latest News</h1>
                 </div>
+                 
+                <?php
+                 $sql = "SELECT title, content, date FROM News ORDER BY date LIMIT 5"
+                 $result = $conn->query($sql);
+                 echo 
+
                 <div class="newsblock">
                     <div class="newsblock-title">
-                        <h2>Example News Post</h2>
+                        <h2> $row</h2>
                     </div>
                     <div class="newsblock-body">
                         <p>Example Test</p>
