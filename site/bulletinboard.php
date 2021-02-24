@@ -40,6 +40,9 @@ dates edited:
                 </div>
                 <div class="post-create">
                     <h1>Create</h1>
+                    <form action="createbulletin.php">
+                        <input type="submit" value="Submit" />
+                    </form>
                 </div>
             </div>
             <div class="post-section">
