@@ -1,7 +1,8 @@
 <!--
-authors: Henry Cook, George Daish
+authors: Henry Cook, Seungwoo Kim, George Daish
 dates edited:
 11/02/2021
+19/02/2021,
 20/02/2021,
 24/02/2021,
 -->
