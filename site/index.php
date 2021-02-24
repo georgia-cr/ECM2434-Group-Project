@@ -29,7 +29,7 @@
                 </div>
 
                 <?php
-                 $sql = "SELECT title, content,date FROM News ORDER BY date LIMIT 5"
+                 $sql = "SELECT title, content,date FROM News ORDER BY date LIMIT 5";
                  $result = $conn->query($sql);
 
 
@@ -59,7 +59,7 @@
             </div>
             <div class="topquiz-container">
               <?php
-              $sql = "SELECT quizID, quizTitle,quizRanking, Category FROM Quiz ORDER BY quizRanking DESC LIMIT 5"
+              $sql = "SELECT quizID, quizTitle,quizRanking, Category FROM Quiz ORDER BY quizRanking DESC LIMIT 5";
               $result = $conn->query($sql);
 
 
@@ -119,7 +119,7 @@
               <div class="post-container"> <!-- contains all the posts -->
 
           <?php
-          $sql = "SELECT postID, date,username, title,content ,numComments, upvotes FROM Bulletin ORDER BY date LIMIT 5"
+          $sql = "SELECT postID, date,username, title,content ,numComments, upvotes FROM Bulletin ORDER BY date LIMIT 5";
           $result = $conn->query($sql);
 
 
