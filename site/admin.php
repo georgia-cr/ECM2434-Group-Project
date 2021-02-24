@@ -36,7 +36,7 @@ if(isset($_SESSION['username']) && $_SESSION['accessLevel'] == 'admin') {
             <option value="2">High Wellbeing</option>
             <option value="3">Low Quiz Score</option>
             <option value="4">High Quiz Score</option>
-            <button type="button" onchange="showUser(this.value)">Search!</button>
+            <button type="button" onclick="showUser(this.value)">Search!</button>
         </select>
     </form>
     <br>
