@@ -16,7 +16,7 @@ dates edited:
 
 <a href="profile.php" class="button">Profile Page</a>
 <a href="EditProfile.html" class="button">Edit</a>
-<a href="FriendsList.php" class="button">View friends list</a>
+<a href="viewfriends.php" class="button">View friends list</a>
 <a href="index.php" class="button">Back Home</a>
 
 <form action="<?=$_SERVER['addfriends.php']?>" method="post">
