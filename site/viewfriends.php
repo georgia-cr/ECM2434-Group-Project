@@ -12,7 +12,7 @@ dates edited:
 <body>
 <h1>Find friend</h1>
 
-<form action="<?=$_SERVER['findfriend.php']?>" method="post">
+<form action="<?=$_SERVER['viewfriend.php']?>" method="post">
     <input type="text" name="friendname">
     <input type="submit">
 </form>
