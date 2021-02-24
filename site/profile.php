@@ -14,10 +14,10 @@ dates edited:
 <h1>This is your profile page</h1>
 <p>Check out these cool buttons</p>
 <form>
-    <a href="AddFriends.html" class="button">Add friends</a>
+    <a href="AddFriends.php" class="button">Add friends</a>
     <a href="EditProfile.html" class="button">Edit</a>
-    <a href="FriendsList.html" class="button">View friends list</a>
-    <a href="index.html" class="button">Back Home</a>
+    <a href="viewfriends.php" class="button">View friends list</a>
+    <a href="index.php" class="button">Back Home</a>
 </form>
 <br>
 
