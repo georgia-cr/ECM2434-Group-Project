@@ -1,3 +1,11 @@
+<!--
+authors: George Daish
+dates edited:
+
+24/02/2021,
+-->
+
+
 <form action="/bulletinboard.php" method="post" id="back">
   <input type="text" name="content">
   <input type="text" name="title">
