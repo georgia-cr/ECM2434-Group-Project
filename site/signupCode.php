@@ -14,39 +14,39 @@ if (isset($_POST["submit"])) {
     $email = $_POST["email"];
     $DOB = $_POST["DOB"];
     $studentNo = $_POST["studentNo"];
+    #Checks that the User accessed the website in the correct manner.
     require_once 'errorHandler.php';
+    #Uses the errorHandler.php to check for error in the given inputs.
 
     if (emptyInput($firstName, $lastName, $username, $password, $password2, $email, $DOB, $studentNo) !== false) {
-        header("location: ./signup.html?error=emptyInput");
+        header("location: ./signup.php?error=emptyInput");
         exit();
     }
     if (invalidUser($username) !== false) {
-        header("location: ./signup.html?error=usernameInvalid");
+        header("location: ./signup.php?error=usernameInvalid");
         exit();
     }
     if (invalidEmail($email) !== false) {
-        header("location: ./signup.html?error=invalidEmail");
+        header("location: ./signup.php?error=invalidEmail");
         exit();
     }
     if (invalidStudentNumber($studentNo) !== false) {
-        header("location: ./signup.html?error=invalidStudentNumber");
+        header("location: ./signup.php?error=invalidStudentNumber");
         exit();
+
     }
     if (samepassword($password, $password2) !== false) {
-        header("location: ./signup.html?error=passwordsDoNotMatch");
+        header("location: ./signup.php?error=passwordsDoNotMatch");
         exit();
-    }/*
-    if (usernameTaken($conn, $username, $email) !== false){
-        header("location: ../signup.html?error=usernameOrEmailTakenAlready");
+    }
+    if (usernameTaken($conn, $username, $email) !== false) {
+        header("location: ./signup.php?error=usernameOrEmailTakenAlready");
         exit();
-   }*/
-
+    }
+    SignUp($conn, $username, $email, $firstName, $lastName, $DOB, $password, $studentNo);
+    #If everything works out the new user will be transfered to the main index page.
 
 } else {
-    header("location: ./signup.html");
-    exit();
+    header("location: ./signup.php");
 }
-
-include_once 'signup.html';
-echo $_POST['firstName'];
 
