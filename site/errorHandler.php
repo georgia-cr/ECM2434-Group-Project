@@ -12,7 +12,6 @@ $conn = new mysqli($servername, $username, $password);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-echo "Connected successfully";
 function emptyInput($firstName, $lastName, $username, $password, $password2, $email, $studentNo, $DOB)
 #Checks that every signup input is filled out.
 {
