@@ -1,9 +1,10 @@
 <!-- 
-authors: Henry Cook, Seungwoo Kim, Elias Kroha
+authors: Henry Cook, Seungwoo Kim, Elias Kroha, George Daish
 dates edited: 
-11/02/2021
-19/02/2021
-21/02/2021
+11/02/2021,
+19/02/2021,
+21/02/2021,
+24/02/2021,
 -->
 
 <!DOCTYPE html>
@@ -25,6 +26,8 @@ dates edited:
         <label for="DOB">Birthday:</label>
         <input type="date" name="DOB" id="DOB" placeholder="Birthday"> <br><br>
         <input type="text" name="studentNo" id="studentNo" placeholder="StudentID"> <br><br>
+        <input type="checkbox" name="chbox" id="chbox" required> I agree that my personal data will be stored and processed in accordance to the <a href="https://gdpr-info.eu/">GDPR</a> regulations
+        <br><br>
         <button type="submit" name="submit">Sign up now!</button>
         <br><br>
     </form>
