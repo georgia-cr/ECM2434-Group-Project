@@ -1,15 +1,15 @@
 <!--
-authors: George Daish
+authors: George Daish, George Daish
 dates edited:
 
 24/02/2021,
+07/03/2021,
 -->
 
 
 <form action="/bulletinboard.php" method="post" id="back">
-  <input type="text" name="content">
-  <input type="text" name="title">
-    <input type="submit">
+  
+    <input type="submit" value="Return to Bulletin">
 </form>
 
 <h1> Add a Post</h1>
