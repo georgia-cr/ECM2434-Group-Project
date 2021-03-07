@@ -22,10 +22,6 @@ To deploy this application, upload the files to your cloud site of choice.
 * PHP Storm
 * IBM Cloud
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## License
 
 This project is licensed under the Mozilla Public License 2.0 License. You can view the [LICENSE.md](LICENSE.md) file for details.
