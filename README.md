@@ -13,8 +13,8 @@ For this software, you need to use [IBM Cloud](https://cloud.ibm.com/) (or equiv
 ### Deployment
 
 To deploy this application, upload the files to your cloud site of choice.
-** For IBM Cloud, you need to create a database, and an API. 
-** Each .js file needs a corresponding GET or PUT request, depending on what the file does.
+* For IBM Cloud, you need to create a database, and an API. 
+* Each .js file needs a corresponding GET or PUT request, depending on what the file does.
 
 ## Built With
 
