@@ -29,4 +29,4 @@ This project is licensed under the Mozilla Public License 2.0 License. You can v
 ## Acknowledgments
 
 * University Of Exeter
-* Matt Collinson
+* Matt Collison
