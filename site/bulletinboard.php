@@ -1,9 +1,10 @@
 <!-- 
-authors: Henry Cook, George Daish
+authors: Henry Cook, George Daish, George Daish
 dates edited: 
 11/02/2021
 20/02/2021,
 24/02/2021,
+7/03/2021,
 -->
 
 <!DOCTYPE html>
@@ -41,7 +42,7 @@ dates edited:
                 <div class="post-create">
                     <h1>Create</h1>
                     <form action="createbulletin.php">
-                        <input type="submit" value="Submit" />
+                        <input type="submit" value="Create a Bulletin Post" />
                     </form>
                 </div>
             </div>
@@ -51,7 +52,8 @@ dates edited:
                         <h2>Hot Posts</h2>
                     </div>
                     <div class="post-container-header-filter">
-                        <h2>Filter</h2>
+                        <h3>Filter</h3>
+			<br> Add Filters here <br>
                     </div>
                 </div>
                 <div class="post-container"> <!-- contains all the posts -->
