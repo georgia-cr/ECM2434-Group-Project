@@ -28,6 +28,7 @@ if(isset($_SESSION['username']) && $_SESSION['accessLevel'] == 'admin') {
 <body>
     <h1>Admin tools</h1>
     <p>For staff only.</p>
+    <h2>View Students</h2>
     <input type="text" name="name_search" id="name_search" placeholder="Search..">
     <form>
         <select name="users">
@@ -41,6 +42,14 @@ if(isset($_SESSION['username']) && $_SESSION['accessLevel'] == 'admin') {
     </form>
     <br>
     <div id="txtHint"><b>Person info will be listed here...</b></div>
+    <h2>Add News</h2>
+    <form> // action="action.php" method="post"> I dont know if this is needed cus it's just gonna call the javascript which will add it to the db.
+        <label for="title">Title:</label><br>
+        <input type="text" id="ntitle" name="ntitle" value="News Title"><br>
+        <label for="lname">Body:</label><br>
+        <input type="text" id="nbody" name="nbody" value="News Body"><br>
+        <input type="submit" value="post">
+    </form> 
 </body>
 </html>
 
