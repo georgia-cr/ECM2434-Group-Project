@@ -19,8 +19,9 @@ To deploy this application, upload the files to your cloud site of choice.
 ## Built With
 
 * VS Code
-* PHP Storm
 * IBM Cloud
+* HTML, CSS & Javascript
+* Node.js
 
 ## License
 
