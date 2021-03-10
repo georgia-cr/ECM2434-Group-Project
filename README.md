@@ -30,3 +30,4 @@ This project is licensed under the Mozilla Public License 2.0 License. You can v
 
 * University Of Exeter
 * Matt Collison
+* Google Material Design Icons
