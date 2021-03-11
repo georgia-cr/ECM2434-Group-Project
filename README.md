@@ -8,13 +8,17 @@ These instructions will tell you what you need to run our software, and how to d
 
 ### Prerequisites
 
-For this software, you need to use [IBM Cloud](https://cloud.ibm.com/) (or equivelant), as that is what the system is built for.
+For this software, you need to use [IBM Cloud](https://cloud.ibm.com/) (or an equivelant cloud service), as that is what the system is built for.
+The deployment instructions are for use with IBM cloud.
 
 ### Deployment
 
-To deploy this application, upload the files to your cloud site of choice.
-* For IBM Cloud, you need to create a database, and an API. 
-* Each .js file needs a corresponding GET or PUT request, depending on what the file does.
+To deploy this application...
+* Sign into your IBM Cloud account
+* Create a new bucket and database
+* Configure the database
+* Upload all the files from this repo to the bucket
+* Create an API, and add new triggers and sequences - each .js file needs a corresponding GET or PUT request, depending on what the file does.
 
 ## Built With
 
