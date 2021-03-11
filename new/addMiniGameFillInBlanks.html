@@ -1,0 +1,57 @@
+<!--
+authors: Georgia Crouch,
+dates edited:
+18/02/2021
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="quiz.css">
+  <title>Fill in Word Minigame</title>
+</head>
+
+
+<body>
+
+<h1>Add a New Fill in the Word Question!</h1><br>
+
+<form id="addFillInWord">
+	<div class="field">
+	  <label class="label">Title</label>
+	  <div class="control">
+		<input class="input" type="text" placeholder="input title" id="ID">
+	  </div>
+	</div><br>
+	</div><br>
+	<div class="field">
+	  <label class="label">Missing Word</label>
+	  <div class="control">
+		<textarea class="textarea" placeholder="input missing word" id="missingWord"></textarea>
+	  </div>
+	</div><br>
+	<div class="field">
+	  <label class="label">Sentence Part 1</label>
+	  <div class="control">
+		<textarea class="textarea" placeholder="input first part of sentence" id="sentencePart1"></textarea>
+	  </div>
+	</div><br>
+	<div class="field">
+	  <label class="label">Sentence Part 2</label>
+	  <div class="control">
+		<textarea class="textarea" placeholder="input second part of sentence" id="sentencePart2"></textarea>
+	  </div>
+	</div><br><br>
+	<div class="control">
+	  <button class="button is-primary">Add Fill In Words Entry</button>
+	</div>
+</form>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="addMiniGameFillInBlanks.js"></script>
+
+</body>
+
+</html>

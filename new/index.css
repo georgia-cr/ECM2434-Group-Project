@@ -1,3 +1,4 @@
+/* Author: George Daish, Seungwoo Kim, Henry Cook */
 * {
     box-sizing: border-box;
 }
@@ -26,7 +27,9 @@ header .logo {
 
 header h1 {
     float: left;
-    margin-left: 20px;
+    margin-left: 25px;
+    font-size: 20px;
+    padding-top: 15px;
 }
 
 header h1 a {
@@ -59,16 +62,23 @@ header .menu > div > nav > ul > li:last-child {
 }
 
 header .menu > div > nav > ul > li > a {
-    display: block;
+    display: flex;
+    flex-flow: column wrap;
     position: relative;
-    width: 100px;
     height: 50px;
     line-height: 50px;
     text-decoration: none;
     font-size: 17px;
     font-weight: bold;
-    color: #fff;
-}
+    color: #fff;    
+    padding: 0px 10px;
+    transition: all .2s linear;
+}    
+
+header .menu > div > nav > ul > li > a:hover {
+    color: rgb(190, 190, 190);
+    transition: all .2s linear;
+}    
 
 .outer-container {
     display: flex;
@@ -147,7 +157,7 @@ header .menu > div > nav > ul > li > a {
 
 .smiley-container {
     margin: 20px 0 0 0;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 0px 0;
     background-color: #212121;
     color: #fff;
 }
@@ -156,7 +166,7 @@ header .menu > div > nav > ul > li > a {
     padding: 10px;
     margin: 20px 20px 0 20px;
     color: #fff;
-    background-color: #696969;
+    background-color: #383838;
     font-weight: 100;
     text-align: center;
 }
@@ -169,6 +179,15 @@ header .menu > div > nav > ul > li > a {
     margin: 0 0 0 0;
 }
 
+.ssn-container {
+    padding: 10px;
+    background-color: #212121;
+    padding: 20px 0 30px 0;
+    font-weight: 100;
+    text-align: center;
+    color: #fff;
+}
+
 footer {
     width: 100%;
     height: 80px;
@@ -177,4 +196,64 @@ footer {
     font-family: Verdana, sans-serif;
     color: #fff;
     text-align: center;
+    margin-top: 50px;
+}
+  
+.btn-img {
+    opacity: 1;
+    background-color: transparent;
+    border-color: transparent;
+    transition: all .2s linear;
+}
+
+.btn-img:hover {
+    opacity: 0.8;
+    transition: all .2s linear;
+}
+
+.btn-img:active {
+    opacity: 0.4;
+    transition: all .5s linear;
+}
+
+.btn-img:focus {
+    opacity: 0.4;
+    transition: all .5s linear;
+}
+  
+
+
+@media screen and (max-width: 1500px) {
+    header .menu > div > nav > ul > li > a {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    header {
+        height: 540px;
+    }
+    header .menu > div > nav > ul {
+        text-align: center;
+        padding: 0 80px 0 0;
+        float:none;
+        margin: 0;
+        padding-top: 70px;
+        display:flex;
+        align-items: center;
+        flex-flow: column wrap;
+    }
+    .inner-right-container {
+        margin: 0;
+        padding-top: 20px;
+    }
+
+    .inner-left-container {
+        margin: 0;
+    }
+    .outer-container {
+        flex-flow: column wrap;
+    }
+    footer {
+        height:auto;
+        font-size: smaller;
+    }
 }

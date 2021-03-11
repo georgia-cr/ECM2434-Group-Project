@@ -1,0 +1,109 @@
+<!--
+authors: Elias Kroha, Seungwoo Kim
+dates edited:
+16/02/2021
+24/02/2021
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="prof.css">
+    <title>Profile Page</title>
+</head>
+<body>
+  <header>
+      <h1><a href="profile.html">Profile</a></h1>
+      <div class="menu">
+          <div>
+              <nav>
+                  <ul>
+                      <li><a href="minigames.html">Minigames</a></li>
+                      <li><a href="bulletinb.html">Bulletin</a></li>
+                      <li><a href="quiz.html">Quiz</a></li>
+                      <li><a href="profile.html">Profile</a></li>
+                      <li><a href="loginOptions.html" onclick="logOut()">Log Out</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </div>
+  </header>
+
+  <!-- Add In Username in h1 -->
+<br><br>
+<div class="user-details-container">
+  <div class="user-details-title">
+    <h2 style="color:white;"> User Details: </h2><br>
+  </div><br>
+
+  <div class="user-details-bio">
+    <h3 style="color:white;"> Bio: </h3>
+    <p3 style="color:white;" id="bioID"> / BIO / </p3><br><br><br>
+  </div><br>
+
+  <div class="user-details-content">
+    <p1 style="color:white;">
+      <b> This user's status is:
+      <label id="typeID"></label>
+      </b><br>
+      <b>Username: </b>
+      <label id="usernameID"></label>
+      <br>
+      <b>First Name: </b>
+        <label id="fNameID"></label>
+    <br>
+      <b>Last Name: </b>
+          <label id="lNameID"></label>
+    <br>
+      <b>Date of Birth: </b>
+          <label id="DOBID"></label>
+    <br>
+      <b>Email: </b>
+         <label id="emailID"></label>
+    <br>
+      <b>Student Number: </b>
+        <label id="studentNoID"></label>
+    <br>
+      <b>Course Code: </b>
+         <label id="courseCodeID"></label>
+    <br>
+      <b>Quiz Average: </b>
+         <label id="quizAverageID"></label>
+    <br></p1><br><br>
+  </div>
+  <br>
+</div>
+<br><br>
+
+<!-- Only Show the rest of this if the profile is the profile on the loggedin user-->
+
+<div class="user-details-container">
+  <div class="user-details-title">
+    <h2> Add Friend: </h2><br>
+  </div><br>
+  <div class="user-details-bio">
+
+  <p1 style="color:white;"> Username of friend: </p1>
+
+
+  <form id="addFriend">
+      <input type="text" id="friendUsername">
+      <button class="button is-primary">Submit</button>
+  </form><br>
+  </div>
+</div><br><br>
+
+<div class="user-details-container">
+  <div class="user-details-title">
+    <br> <h2> Your Friends: </h2><br>
+  </div><br>
+  <div class="user-details-bio">
+    <label id="friendList"></label>
+  </div>
+</div>
+<br><br><br>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="profile.js"></script>
+
+</body>
+</html>

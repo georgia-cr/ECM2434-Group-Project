@@ -1,0 +1,87 @@
+<!--
+authors: Georgia Crouch,
+dates edited:
+23/02/2021
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="quiz.css">
+  <title>Play Quiz</title>
+</head>
+
+
+<body>
+
+<div class="outer-container">
+	<h1>Play a Quiz!</h1><br>
+
+	<form id="playQuiz">
+		<div class="field">
+		<label class="label" id="ID">Title</label>
+		</div><br>
+		
+		<div class="field">
+			<label class="label" id="q1">Question 1</label>
+			<input class="input" type="text" placeholder="input question answer" id="a1">
+		</div><br>
+		<div class="field">
+			<label class="label" id="q2">Question 2</label>
+			<input class="input" type="text" placeholder="input question answer" id="a2">
+		</div><br>
+		<div class="field">
+			<label class="label" id="q3">Question 3</label>
+			<input class="input" type="text" placeholder="input question answer" id="a3">
+		</div><br>
+		<div class="field">
+			<label class="label" id="q4">Question 4</label>
+			<input class="input" type="text" placeholder="input question answer" id="a4">
+		</div><br>
+		<div class="field">
+			<label class="label" id="q5">Question 5</label>
+			<input class="input" type="text" placeholder="input question answer" id="a5">
+		</div><br>
+		<div class="field">
+			<label class="label" id="q6">Question 6</label>
+			<input class="input" type="text" placeholder="input question answer" id="a6">
+		</div><br>
+		<div class="field">
+			<label class="label" id="q7">Question 7</label>
+			<input class="input" type="text" placeholder="input question answer" id="a7">
+		</div><br>
+		<div class="field">
+			<label class="label" id="q8">Question 8</label>
+			<input class="input" type="text" placeholder="input question answer" id="a8">
+		</div><br>
+		<div class="field">
+			<label class="label" id="q9">Question 9</label>
+			<input class="input" type="text" placeholder="input question answer" id="a9">
+		</div><br>
+		<div class="field">
+			<label class="label" id="q10">Question 10</label>
+			<input class="input" type="text" placeholder="input question answer" id="a10">
+		</div><br><br>
+		
+		<div class="control">
+		<button class="button is-primary">Submit Answers</button>
+		</div><br>
+		
+		<label class="label" id="answerResult"></label><br><br>
+		<label id="questionVote">Did you like this quiz? Up or down vote it below!</label>
+		<button onclick="upvoteQuiz()">Upvote Quiz</button>
+		<button onclick="downvoteQuiz()">Downvote Quiz</button>
+	</form>
+
+	<br>
+
+	<button class="back" onclick="location.href='homePage.html'">Back to Home</button>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="playQuiz.js"></script>
+</div>
+</body>
+
+</html>

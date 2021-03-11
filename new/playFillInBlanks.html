@@ -1,0 +1,46 @@
+<!--
+authors: Georgia Crouch,
+dates edited:
+18/02/2021, 24/02/2021
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+  <title>Play Fill In Words</title>
+</head>
+<body>
+
+<h1>Play the Minigame, Fill in Blanks Below!</h1><br>
+
+<label id="title"></label>
+
+<form id="playFillInBlanks">
+
+	<div class="sentenceLabel">
+		<label class="label" id="sentencePart1"></label>
+	</div><br>
+	<div class="field">
+			<input class="input" type="text" placeholder="input missing word!" id="missingWord">
+		  </div>
+	</div><br>
+	<div class="sentenceLabel">
+		<label class="label" id="sentencePart2"></label>
+	</div><br><br>
+	<div class="control">
+		  <button class="button is-primary">Submit Answer</button>
+	</div><br>
+	<div class="sentenceLabel">
+		<label class="label" id="answerResult"></label>
+	</div>
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="playFillInBlanks.js"></script>
+
+</body>
+</html>

@@ -1,5 +1,5 @@
 body {
-    background-color: #84c8a1;
+    background-color: #6ece7be7;
 }
 
 .login-outercontainer {
@@ -16,6 +16,36 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+	font-family: 'Helvetica', monospace;
+}
+
+input {
+    border-color: transparent;
+    transition: all .2s linear;
+}
+
+input:focus {
+    background-color: #e1f1e3e7;
+    transition: all .2s linear;
+}
+
+input:hover {
+    background-color: #e1f1e3e7;
+    transition: all .2s linear;
+}
+
+button {
+    border-color: transparent;
+    padding: 5px 0;
+    background-color: #6ece7be7;
+    color: white;
+    font-weight: bold;
+    transition: all .2s linear;
+}
+
+button:hover {
+    background-color: #86d390e7;
+    transition: all .2s linear;
 }
 
 h1 {
