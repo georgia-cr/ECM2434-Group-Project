@@ -22,18 +22,25 @@ To deploy this application...
 
 ## Built With
 
-* VS Code
 * IBM Cloud
 * HTML, CSS & Javascript
 * Node.js
+* VS Code
 
 ## License
 
 This project is licensed under the Mozilla Public License 2.0 License. You can view the [LICENSE.md](LICENSE.md) file for details.
 
+## Contributing
+
+If you wish to contribute to this project, don't hesitate in forking and submitting pull requests. We read all pull requests and issues so feel free to get in touch.
+
 ## Acknowledgments
 
 * University Of Exeter
 * Matt Collison
-* Google Material Design Icons
-* [mobz arraybuffer to base64](https://stackoverflow.com/a/9458996)
+* IBM
+* W3Schools
+* Mozilla Docs
+* [Material Design Icons by Google](https://material.io/)
+* [mobz - arraybuffer to base64 code](https://stackoverflow.com/a/9458996)
